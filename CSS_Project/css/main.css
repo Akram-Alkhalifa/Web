@@ -285,4 +285,148 @@ body {
     overflow: hidden;
 } */
 
+/* div {
+    background-color: #ddd;
+    color: rebeccapurple;
+    text-shadow: 8px -7px 2px red;
+} */
+
+/* div {
+    background-color: #ddd;
+    color: rebeccapurple;
+    text-align: center;
+    direction: rtl;
+}
+img{
+    vertical-align: middle;
+} */
+
+/* .one,.two {
+    background-color: #03a9f4;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.one {
+    text-decoration: line-through;
+}
+.two {
+    text-transform: uppercase;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 250px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+} */
+/* 
+div {
+    background-color:  #03a9f4;
+    margin: 10px;
+}
+
+.one {
+    letter-spacing: 3px;
+    text-indent: 10px;
+    word-spacing: 12px;
+}
+
+.two {
+    line-height: 1.6;
+    width: 400px;
+    white-space: nowrap ;
+}
+
+.a {
+    width: 300px;
+    word-spacing:break-all ;
+
+} */
+
+/* div {
+    background-color: #03a9f4;
+    padding: 10px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div:hover{
+    overflow: visible;
+    text-transform: uppercase;
+} */
+
+/* p {
+    color: black;
+    background-color:#03a9e4;
+    text-align: center; 
+    text-shadow:2px 2px 0 #f00,
+         4px 4px 0 #0f0,
+         6px 6px 0 #a259e2;
+    font-size: 100px;
+    margin: 40px;
+    text-transform: uppercase;
+} */
+
+/* p {
+    background-color: #03a9e4;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}   
+.one {
+    text-transform:uppercase ;
+}
+.two {
+    text-transform:capitalize ;
+} */
+
+/* 
+div{
+    background-color: #eee;
+    padding: 30px;
+    margin: 40px auto;
+    width: 300px;
+    word-break: break-word;
+}
+
+.o{
+    word-break: break-word;
+}
+
+.t{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.r{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.r:hover {
+    overflow: visible;
+    white-space: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid #00514A;
+    background-color:#009688;
+    text-transform: capitalize;
+    display: inline-block;
+    
+} */
 
