@@ -1042,3 +1042,204 @@ td:hover{
 .css ol li {
     list-style-type: upper-roman;
 } */
+
+
+
+/* .one:hover {
+    background-color: red;
+
+}
+.two {
+    width: 80px;
+    height: 60px;
+    background-color: #EEEEEE;
+}
+.two:hover {
+    background-color: aquamarine;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+   color: rebeccapurple; 
+}
+a:visited {
+    color: blue;
+}
+
+.in{
+    border: 1px solid black;
+}
+
+.in:focus {
+    border-color: rgb(0, 255, 229);
+        outline: none;
+}
+ 
+.ch:checked + label {
+    color:rebeccapurple ;
+
+}
+
+div:empty {
+    background-color: burlywood; 
+    }*/
+
+
+/* .one span {
+    display: inline;
+    color: white;
+    background-color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+.two::first-letter {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.three::first-line {
+    font-weight: bold;
+    color: green;
+}
+
+.four::selection {
+    color: yellow;
+    background-color: black;
+} */
+
+
+/* .parent {
+    overflow: hidden;
+    margin-bottom: 50px ;
+    counter-increment: members-counter ;
+}
+.one {
+    float: left;
+    background-color: #EEEEEE;
+    padding: 10px;
+    width: 600px;
+    position: relative;
+}
+
+.one::after {
+    content: counter(members-counter);
+}
+
+.one::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    right: -8px;
+    top: 0;
+    background-color: cadetblue;
+}
+
+.user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+
+.one::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    position: absolute; 
+    left: -20px;
+    top: 50%; 
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color:   transparent cadetblue transparent transparent;
+
+} */
+
+
+.parent {
+    overflow: hidden;
+    margin-bottom: 50px ;
+    counter-increment: members-counter ;
+}
+.one {
+    float: left;
+    background-color: #EEEEEE;
+    padding: 10px;
+    width: 600px;
+    position: relative;
+}
+
+.one::after {
+    content: counter(members-counter);
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    top:50% ;
+    right: -10px;
+    margin-top: -10px ;
+    text-align: center;
+
+}
+
+.user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+
+.one::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute; 
+    left: -20px;
+    top: 50%; 
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color:   transparent cadetblue transparent transparent;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+ul li::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 10px;
+    border-color:   transparent cadetblue transparent transparent;
+    top:50%;
+    left:-20px ;
+    margin-top: -10px;
+
+
+}
