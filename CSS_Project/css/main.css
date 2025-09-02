@@ -16,14 +16,12 @@
     background-image: url(../imgs//blue-aesthetic-5120x2880-17495-150x150.png);
     background-repeat:  no-repeat;
     /* background-attachment: fixed; */
-    /* background-position: 50px 100px; */
-    /* background-size: 50% 50%; */
-    
+/* background-position: 50px 100px; */
+/* background-size: 50% 50%; */
+
 /* 
 }
  */
-
-
 
 /* div {
     background-color: #ddd;
@@ -85,8 +83,6 @@ div {
     background-repeat: repeat;
 } */
 
-
-
 /* 
 div {
     background-color: #ddd;
@@ -119,7 +115,6 @@ div {
     background-repeat: repeat;
 
 } */
-
 
 /* 
 div {
@@ -154,7 +149,6 @@ div {
     background-size:50% 50%;
     background-position:  right bottom;
 } */
-
 
 /* div {
     background-color: #ddd;
@@ -201,7 +195,6 @@ div {
     border-color: red green blue yellow;
 } */
 
-
 /* .one,
 .two,
 p {
@@ -233,7 +226,6 @@ div p {
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 } */
-
 
 /* div{
     background-color: #ddd;
@@ -479,9 +471,7 @@ p{
     padding: inherit;
 } */
 
-
-
- /* html{
+/* html{
     font-size: 20px;
  } */
 
@@ -489,11 +479,9 @@ p{
     text-align: center;
      font-size: 2.5rem; /* 50px */
 
-
 /* p {
     font-family: 'Cabin', serif;
 } */
-
 
 /* 
 form{
@@ -541,7 +529,6 @@ p{
 }
  */
 
-
 /* 
 .parent {
     background-color: red;
@@ -560,9 +547,6 @@ p{
 .clear {
     clear: both;
 } */
-
-
-
 
 /* 
 5 product 
@@ -605,7 +589,6 @@ div {
 
 } */
 
-
 /* .one {
     background-color: red;
     opacity: 0.2;
@@ -614,7 +597,6 @@ div {
 .two {
     background-color: rgb(255, 0, 0,0.2);
 } */
-
 
 /* div {
     margin: 20px auto;
@@ -633,7 +615,6 @@ div {
     background-color:rgba(179, 179, 179,0.1) ;
     opacity: 0.1;
 } */
-
 
 /* 
 * {
@@ -676,8 +657,6 @@ div.parent {
     margin-bottom: 15px ;
 }
  */
-
-
 
 /* * {
     box-sizing: border-box;
@@ -728,7 +707,6 @@ div.clear {
 }
  */
 
-
 /* 
  div {
   width: 200px;
@@ -777,9 +755,6 @@ div {
     position: relative;
 } */
 
-
-
-
 /* body {
  min-height: 5000px;
 }
@@ -819,15 +794,11 @@ div {
     background: blue;
 } */
 
-
 /* ul {
     list-style-type:armenian ;
     list-style-position: inside ;
     list-style-image: url(/CSS_Project/imgs/blue-aesthetic-5120x2880-17495-150x150.png) ;
 } */
-
-
-
 
 /* 
 body {
@@ -884,12 +855,10 @@ div {
 .black {
     background-color: #333333;
     z-index: 1;
-  left: 20px;
+    left: 20px;
     top: 25px;
 
 } */
-
-
 
 /* 
 * {
@@ -1015,7 +984,6 @@ td:hover{
     background-color: rgba(0, 128, 81, 0.212);
 } */
 
-
 /* 
 .list {
     width: 400px;
@@ -1042,8 +1010,6 @@ td:hover{
 .css ol li {
     list-style-type: upper-roman;
 } */
-
-
 
 /* .one:hover {
     background-color: red;
@@ -1086,7 +1052,6 @@ div:empty {
     background-color: burlywood; 
     }*/
 
-
 /* .one span {
     display: inline;
     color: white;
@@ -1111,7 +1076,6 @@ div:empty {
     color: yellow;
     background-color: black;
 } */
-
 
 /* .parent {
     overflow: hidden;
@@ -1244,7 +1208,6 @@ ul li::before {
 
 } */
 
-
 /* div {
     width: 300px;
     height: 60px;
@@ -1260,12 +1223,6 @@ ul li::before {
 div:empty {
     background-color: red;
 } */
-
-
-
-
-
-
 
 /* p {
     
@@ -1301,8 +1258,6 @@ p::after {
     border-color: transparent #E91E63 transparent transparent;
 } */
 
-
-
 /* p {
     width: 310px;
     background-color: #EEEEEE;
@@ -1327,7 +1282,6 @@ p::before {
     left: -40px;
 } */
 
-
 /* 
 div.text {
     background-color: #D4D4D4;
@@ -1349,5 +1303,144 @@ div.text span {
     margin-top: -37px;
 } */
 
+/* .class {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+} */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(51, 121, 153);
+    margin: 20px auto;
+}
+
+.one {
+    border-radius: 50%;
+}
+
+.two {
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px;
+} */
+
+/* 
+div {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #EEEEEE;
+    padding: 20px;
+    box-shadow: 3px 4px 5px 4px rgba(255, 0, 0, 0.251) inset, 4px 3px 6px 2px #2196f3;
+} */
 
 
+
+/* * { 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.one {
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 5px solid deepskyblue;
+    height: 40px ;
+} */
+
+/* .parent div {
+    background-color: #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 25%;
+    float: left ;
+}
+.clear {
+    clear: both;
+} */
+
+/* 
+5 product 
+space 1% * 6  = 6%
+94%  94 / 5 = 18.8
+ */
+
+/* body {
+    margin: 0;
+}
+
+div {
+    background-color: #ddd;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+    width: 18.8%;
+    margin-left: 1%;
+} */
+
+/* 
+6 product 
+space 15 px * 7  = 105 px
+(100% - 105px)/6
+ */
+
+/* body {
+    margin: 0;
+}
+
+div {
+    background-color: #ddd;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    width:calc((100% - 105px)/6) ;
+    margin-left:15px ;
+
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: #EEEEEE;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 20px auto;
+    margin-left: 40px;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: -6px -6px 0px 3px #e91e6299, 4px 5px 0 3px #2196F3;
+    outline: #000000 solid 2px;
+    counter-increment: count;
+    position: relative;
+}
+
+div::after {
+    content: counter(count);
+    position: absolute;
+    color: white;
+    background-color: #000000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    right: 40%;
+    top: -10px;
+}
