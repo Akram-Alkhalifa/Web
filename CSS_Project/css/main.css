@@ -1529,7 +1529,7 @@ h4 {
 
 
 
-    /* transition-duration: 2s; 
+/* transition-duration: 2s; 
     transition-delay: 0.2s;
     transition-property: all ;
     transition-timing-function: ease-in-out; 
@@ -1689,7 +1689,7 @@ div {
     border: 2px solid var(--mainColor,black);
 } */
 
-* { 
+* {
     box-sizing: border-box;
 }
 
@@ -1749,7 +1749,7 @@ div {
 } */
 
 
-.parent {
+/* .parent {
     text-transform: capitalize;
     text-align: center;
     background-color: #eee;
@@ -1768,4 +1768,175 @@ div {
     background-color: cadetblue;
     width: calc(90% / 3);
     padding: 20px;
+} */
+
+
+/* 
+.flex {
+    background-color: #eee;
+    width: 600px;
+    padding: 10px;
+    margin: 40px auto;
+    display: inline-flex;
+}
+
+.flex div {
+    width: 80px;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+.two {
+    flex: 0 1 30%;
+}
+
+.in {
+    display: inline-block;
+} */
+
+
+/* .flex {
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+}
+
+.flex div {
+    width: 80px;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+.two {
+    align-self: stretch ;
+}
+.five {
+    align-self: flex-end ;
+} */
+
+/* div{
+    background-color: yellow;
+} */
+
+
+
+/* div {
+    color: #FF5722;
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 6px 1px 0px 0px #FF5722,
+                -6px 0px 0px 0px #03A9F4;
+    font-weight: bold;
+    font-style: italic;
+} */
+
+/* 
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #eee;
+    padding: 10px;
+    margin: 40px auto;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-around ;
+    align-content: space-between;
+}
+
+.parent div {
+    background-color:#F44336 ;
+    color: white;
+    padding: 10px;
+    width: calc(96% / 3);
+} */
+
+
+/* .parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #eee;
+    padding: 10px;
+    margin: 40px auto;
+    text-align: center;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-around ;
+}
+
+.parent div {
+    background-color:#607D8B ;
+    color: white;
+    padding: 10px;
+    width: calc(96% / 3);
+}
+
+.one {
+    align-self: end;
+}
+
+.three {
+
+    order:5 ;
+    align-self: start;
+}
+
+.four {
+
+    order:4 ;
+}
+
+
+.five {
+
+    order:3 ;
+}
+.six {
+
+    order: 6;
+} */
+
+
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #eee;
+    padding: 10px;
+    margin: 40px auto;
+    text-align: center;
+    flex-flow: column;
+    align-items:end ;
+    justify-content: space-between;
+
+}
+
+.parent div {
+    background-color:#009688 ;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    width: calc(15% / 3);
+    height: 70px;
+}
+
+.two {
+    align-self: self-start;
+    min-width: 50%;
+    flex-basis: 70px;
+
 }
