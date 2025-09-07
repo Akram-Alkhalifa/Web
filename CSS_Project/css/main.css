@@ -1670,7 +1670,7 @@ div {
 } */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* .flex {
@@ -2120,9 +2120,6 @@ div::before {
   );
 } */
 
-
-
-
 /* input , p{
     caret-color: rgb(43, 226, 134);
     
@@ -2130,8 +2127,6 @@ div::before {
 a { 
     pointer-events: none;
 } */
-
-
 
 /* div {
     background-color: #eee;
@@ -2155,7 +2150,6 @@ div::before {
     background-image: linear-gradient(to right ,#F44336 50% , #009688 50%);
 } */
 
-
 /* div {
   background: #eee;
   padding: 40px;
@@ -2171,10 +2165,6 @@ div::before {
     deeppink 60% 80%, 
     purple 80% 100%) 1;
 } */
-
-
-
-
 
 /* :root {
     --mainpadding:10px;
@@ -2258,9 +2248,7 @@ ul li {
     align-items: flex-end;
 } */
 
-
-
-.page {
+/* .page {
     width: 80%;
     margin: 20px auto;
     padding: 10px;
@@ -2332,4 +2320,93 @@ footer {
     margin-right: 10px;
     justify-content: space-between;
     padding: 5px;
+} */
+
+/* .parent {
+    background-color: #eee;
+    width: 800;
+    height: 600px;
+    margin: 20px auto;
+    padding: 1 0px;
+    display: grid;
+    grid-template-columns: repeat(4,auto) ;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px 10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.parent div {
+    background-color: cadetblue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+        display: flex;
+    justify-content: space-evenly;
+}
+ul li {
+    display: inline-block;
+}
+
+.page {
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 50px  auto 50px;
+    grid-template-areas:
+        "logo logo nav nav nav nav nav nav  nav nav "
+        " content content content content content content content  content sidebar sidebar"
+        " footer footer footer footer footer footer footer footer footer footer ";
+
+}
+
+
+h2 {
+    grid-area: logo;
+    background-color: rgb(95, 160, 108);
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(95, 100, 160);
+    color: white;
+}
+
+section {
+    grid-area: content;
+    background-color: rgb(95, 117, 160);
+    color: white;
+    margin-right: 2px;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: rgb(144, 160, 95);
+    color: white;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(95, 160, 104);
+    color: white;
+}
+
+h2 , nav , section , aside  {
+    margin-bottom: 1px;
 }
