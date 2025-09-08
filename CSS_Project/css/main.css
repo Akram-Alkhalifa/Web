@@ -2345,7 +2345,7 @@ footer {
     font-size: 30px;
 } */
 
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -2363,8 +2363,9 @@ ul li {
 .page {
     height: 100vh;
     background-color: #eee;
-    display: grid;
     text-align: center;
+    display: grid;
+    gap: 1px;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 50px  auto 50px;
     grid-template-areas:
@@ -2405,8 +2406,49 @@ footer {
     grid-area: footer;
     background-color: rgb(95, 160, 104);
     color: white;
+} */
+
+
+/* .parent {
+    background-color: #eee;
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
 }
 
-h2 , nav , section , aside  {
-    margin-bottom: 1px;
+.parent div {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+div:nth-child(9) {
+    background-color: rebeccapurple;
+    grid-area:2 / 2 /5 /6;
+} */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.parent {
+    background-color: #eee; 
+    height: 500px;
+    margin: 20px auto;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr)) ;
+}
+.parent div {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
