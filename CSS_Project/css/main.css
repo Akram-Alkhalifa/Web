@@ -2609,41 +2609,96 @@ div:nth-child(9) {
 } */
 
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+.parent {
+    background-color: #ddd;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto;
+    padding: 5px;
 }
 
-.parent {
+/* .parent div {
+
+  width: 90%;
+  height: 90%;
+  background-color: rgb(255 0 0 / 39%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 5%;
+  transform: scale(1.3) rotate(.30turn);
+  transition: 2s;
+} */
+
+/* .image {
+    overflow: hidden;
+}
+
+.image img {
+    transition: 0.5;
+}
+
+.image:hover img {
+    transform: scale(0.5) rotate(10deg);
+    opacity: 0.6;
+} */
+
+
+
+
+/* .parent div {
+
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    transform: translate(80px, 50px);
+    transition: 2s;
+} */
+
+
+div {
+    margin: 50px auto;
+    background-color: #EEEEEE;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    color:#03A9F4 ;
+    position: relative;
+}
+
+div::before,
+div::after {
+    content: "";
     width: 100%;
     height: 100%;
-    background-color: rebeccapurple ;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px,auto));
-    gap: 5px;
-
-}
-.parent div {
-    background-color: cadetblue;
-    padding: 10px;
-    border-bottom: 2px solid #FF3D00;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1; 
 }
 
-h6 {
-    opacity: 0.5;
+div::before {
+    background-color: #03A9F4;
+    transform: rotate(-7deg);
 }
 
-div .ch3 , div .ch5  , div .ch8 {
-    background-color: black;
-    color: white;
-}
-
-.p1 {
-    font-weight: bold;
-}
-
-.ch1 {
-    grid-area:1 / 1 / 1/ 4 ;
+div::after {
+    background-color: #E91E63;
+    transform: rotate(7deg);
 }
