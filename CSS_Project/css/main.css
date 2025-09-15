@@ -2609,13 +2609,13 @@ div:nth-child(9) {
 } */
 
 
-.parent {
+/* .parent {
     background-color: #ddd;
     width: 250px;
     height: 250px;
     margin: 50px auto;
     padding: 5px;
-}
+} */
 
 /* .parent div {
 
@@ -2705,7 +2705,7 @@ div::after {
 
 
 
-div {
+/* div {
     background-color: #eeeeee;
     width: 200px;
     height: 200px;
@@ -2756,4 +2756,125 @@ div:hover::after {
 
 div:hover {
     font-style: italic;
+} */
+
+
+/* h2 {
+    position: relative;
+    color: white;
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 30px;
+    padding: 20px;
+}
+h2::after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: matr(20deg);
+} */
+
+
+/* .shap {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.box:hover{
+    transform: matrix(1.2,0.2679,0,1.2,20,20);
+} */
+
+
+
+/* ! .shape {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.box {
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: left bottom;
+    transform: rotate(50deg);
+}
+.shape .origin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transform: translate(0%,0%);
+} */
+
+
+
+/* .shape {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.box {
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: right top;
+    transform: rotate3d(1,1,1,50deg);
+} */
+
+
+
+.shape {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    perspective: 100px;
+    perspective-origin: center center;
+}
+
+.box {
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0, 0, 10px);
 }
