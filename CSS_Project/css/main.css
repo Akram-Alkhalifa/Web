@@ -1669,9 +1669,9 @@ div {
     border: 2px solid var(--mainColor,black);
 } */
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 /* .flex {
     display: flex;
@@ -3367,3 +3367,120 @@ span::before {
 
 
 
+/* p:first-child {
+    color: cadetblue;
+} */
+/* p:last-child {
+    color: cadetblue;
+} */
+
+/* p:first-of-type {
+    color: rebeccapurple;
+} */
+/* p:last-of-type {
+    color: rebeccapurple;
+} */
+
+/* p:only-child {
+    color: red;
+} */
+
+
+/* p:only-of-type {
+    color: blueviolet;
+} */
+
+
+/* p:not(.special) {
+    color: rgb(20, 146, 73);
+    font-weight: bold;
+} */
+
+/* p:not(:first-child) {
+    color: rgb(20, 146, 73);
+    font-weight: bold;
+} */
+
+
+/* p:nth-child(2) {
+    color: cadetblue;
+ } 
+ p:nth-child(odd) {
+    color: cadetblue;
+ } 
+ p:nth-child(even) {
+    color: cadetblue;
+ }  */
+
+
+/* p:nth-last-child(2) {
+    color: cadetblue;
+  } */
+
+/* div:nth-of-type(1) {
+    color: red;
+  }
+  div:nth-last-of-type(2) {
+    color: red;
+  } */
+
+/* div:empty{
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 200px;
+}
+
+input[type="checkbox"]:checked + label {
+    color: cadetblue;
+}
+
+input:disabled {
+    opacity: .5;
+    color: rebeccapurple;
+}
+
+input:required + span::before {
+    content: "*";
+    color:red
+} */
+
+
+/* div.main.red {
+  color: red;
+} */
+
+/* .parent > .child:nth-child(2){
+    color: red;
+} */
+
+
+/* .parent .baby:only-child  {
+    color: red;
+} */
+
+
+/* [title]:not(:nth-last-of-type(2), :last-child, :nth-last-of-type(3)) {
+    color: red;
+} */
+
+
+/* div:nth-child(2) [title]:last-child {
+  color: red;
+} */
+
+/* div:not([class]) > div:nth-last-of-type(2) {
+  color: red;
+} */
+/* 
+div:nth-child(2) div:nth-last-of-type(2) {
+  color: red;
+} */
+
+
+/* div > div:not(:first-child)   {
+    color:red;
+} */
+
+*:not(:first-child, :last-child, h3) {
+    color: red;
+}
