@@ -3678,7 +3678,7 @@ div:nth-child(2) div:nth-last-of-type(2) {
 
 
 
-.parent {
+/* .parent {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -3715,7 +3715,6 @@ div:nth-child(2) div:nth-last-of-type(2) {
     }
 }
 
-
 @media (min-width:992px) {
     .parent div {
         width: calc(50% - 20px);
@@ -3728,4 +3727,119 @@ div:nth-child(2) div:nth-last-of-type(2) {
         width: 100%;
     }
     
+} */
+
+
+
+
+/* .parent {
+    width: 1200px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 20px auto;
+    position: relative;
+}
+
+.parent  div {
+    background-color: red;
+    color: white;
+}
+.product {
+    background-color: green;
+    color: white;
+}
+
+.center-position {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.circle-100{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle-200{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+/*
+  CSS Global Values
+  - inherit
+  - initial
+  - unset
+  --- If Inherit => inherit
+  --- If Not => initial
+  - revert CSS Level [4]
+  - all
+*/
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+}
+div {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #eee;
+  padding: 20px;
+  margin: 5px;
+  border: 2px solid black;
+} */
+
+
+
+div {
+    background-color: #ccc;
+    width: 600px;
+    padding: 20px;
+    margin: 70px auto;
+    font-size: 20px;
+    position: relative;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+    border: 20px solid;
+    border-color: red green black blue;
+}
+
+.top::before{
+        left: 50%;
+        top: -40px;
+         margin-left:-20px ;
+         border-color: transparent transparent #ccc transparent;
+}
+.right::before{
+        right: -40px;
+        top: 50%;
+         margin-top:-20px ;
+         border-color: transparent transparent transparent #ccc ;
+}
+.bottom::before{
+    left: 50%;
+    bottom: -40px;
+         margin-left:-20px ;
+         border-color:  #ccc transparent transparent transparent;
+}
+.left::before{
+        left:-40px;
+        top: 50%;
+         margin-top:-20px ;
+         border-color: transparent  #ccc transparent transparent;
 }
