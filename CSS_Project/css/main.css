@@ -3802,7 +3802,7 @@ div {
 } */
 
 
-
+/* 
 div {
     background-color: #ccc;
     width: 600px;
@@ -3840,6 +3840,22 @@ div {
 .left::before{
         left:-40px;
         top: 50%;
-         margin-top:-20px ;
-         border-color: transparent  #ccc transparent transparent;
-}
+        margin-top:-20px ;
+        border-color: transparent  #ccc transparent transparent;
+} */
+
+/* .elzero-lines {
+    margin: 50px auto;
+    width: 300px;
+    --line-size: 5px;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: var(--line-size) solid red;
+    outline: var(--line-size) solid green;
+} */
+ 
+ /* div {
+    font:20px/100px bold italic Arial, sans-serif   ;
+ } */
